@@ -1,0 +1,28 @@
+name: customizable_month_picker_example
+description: Demonstrates how to use the customizable_month_picker plugin.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  customizable_month_picker:
+    path: ../
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  import_sorter: ^4.6.0
+
+flutter:
+  uses-material-design: true
