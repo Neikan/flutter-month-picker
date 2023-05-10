@@ -42,10 +42,6 @@ class _CmpHomeFab extends StatelessWidget {
       isActionConfirmFirst: true,
     );
 
-    dynamic ssss = '';
-    ssss = 1;
-    print(ssss.runtimeType);
-
     if (newDate != null) onSelect(newDate);
   }
 
